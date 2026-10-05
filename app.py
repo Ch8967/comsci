@@ -187,7 +187,7 @@ with tab_charts:
         ax.legend()
         st.pyplot(fig)
         st.caption(
-            "Shows how order sizes are spread. Most orders fall in the lower range, "
+            "Shows how order sizes ate spread. Most orders fall in tje lower range, "
             "while a few large orders pull the mean upward."
         )
 
@@ -199,7 +199,7 @@ with tab_charts:
         ax.axis("equal")
         st.pyplot(fig)
         st.caption(
-            f"Shows how customers pay. **{pay_counts.idxmax()}** is the most common method "
+            f"Shows how customers pay. **{pay_counts.idxmax()}** is the most commmon method "
             f"({pay_counts.max() / pay_counts.sum() * 100:.0f}% of orders)."
         )
 
