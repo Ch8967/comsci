@@ -88,8 +88,8 @@ if df.empty:
 
 totals = df["total"].to_numpy()
 
-tab_overview, tab_data, tab_charts, tab_about = st.tabs(
-    ["Overview", "Data", "Charts", "About"]
+tab_overview, tab_data, tab_charts, tab_stats, tab_about = st.tabs(
+    ["Overview", "Data", "Charts", "Statistics", "About"]
 )
 
 
@@ -211,6 +211,42 @@ with tab_charts:
     ax.set_ylabel("Avg daily sales (₱)")
     st.pyplot(fig)
     st.caption("Compares typical daily revenue for each day of the week.")
+
+with tab_stats:
+    st.subheader("Statistical analysis (SciPy)")
+
+    st.markdown("**A. Correlation: quantity vs. order total**")
+    if len(df) >= 3 and df["quantity"].nunique() > 1:
+        r, p = stats.pearsonr(df["quantity"], df["total"])
+        st.write(f"Pearson r = **{r:.3f}**, p-value = **{p:.4f}**")
+        strength = "strong" if abs(r) >= 0.7 else "moderate" if abs(r) >= 0.4 else "weak"
+        direction = "positive" if r > 0 else "negative"
+        significance = "statistically significant" if p < 0.05 else "not statistically significant"
+        st.info(
+            f"There is a {strength} {direction} relationship between quantity and order total, "
+            f"and it is {significance} at the 5% level."
+        )
+    else:
+        st.warning("Not enough varied data to compute a correlation with the current filters.")
+
+    st.markdown("**B. Weekday vs. weekend daily sales (independent t-test)**")
+    daily_all = df.groupby(df["date"].dt.date).agg(total=("total", "sum"), weekend=("is_weekend", "first"))
+    weekend_sales = daily_all.loc[daily_all["weekend"], "total"]
+    weekday_sales = daily_all.loc[~daily_all["weekend"], "total"]
+
+    if len(weekend_sales) >= 2 and len(weekday_sales) >= 2:
+        t_stat, p_val = stats.ttest_ind(weekend_sales, weekday_sales, equal_var=False)
+        m1, m2 = st.columns(2)
+        m1.metric("Avg weekend day", f"₱{weekend_sales.mean():,.2f}")
+        m2.metric("Avg weekday", f"₱{weekday_sales.mean():,.2f}")
+        st.write(f"t = **{t_stat:.3f}**, p-value = **{p_val:.4f}**")
+        if p_val < 0.05:
+            higher = "weekends" if weekend_sales.mean() > weekday_sales.mean() else "weekdays"
+            st.success(f"The difference is statistically significant: **{higher}** earn more per day.")
+        else:
+            st.info("The difference is not statistically significant, so we cannot say weekends sell differently.")
+    else:
+        st.warning("Need at least two weekend days and two weekdays in the filtered range.")
 
 
 with tab_about:
