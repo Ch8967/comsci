@@ -213,7 +213,7 @@ with tab_charts:
     st.caption("Compares typical daily revenue for each day of the week.")
 
 with tab_stats:
-    st.subheader("Statistical analysis (SciPy)")
+    st.subheader("Statistical analysis")
 
     st.markdown("**A. Correlation: quantity vs. order total**")
     if len(df) >= 3 and df["quantity"].nunique() > 1:
