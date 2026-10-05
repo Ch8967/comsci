@@ -171,8 +171,8 @@ with tab_charts:
         fig.autofmt_xdate()
         st.pyplot(fig)
         st.caption(
-            f"Shows day-to-day changes in revenue. The best day was **{daily.idxmax()}** "
-            f"(₱{daily.max():,.0f}); sharp peaks often line up with weekends."
+            f"this Shows day to day changes in revenue. The best day was **{daily.idxmax()}** "
+            f"(₱{daily.max():,.0f})"
         )
 
     col_c, col_d = st.columns(2)
