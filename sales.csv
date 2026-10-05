@@ -1,0 +1,140 @@
+order_id,date,product,category,quantity,unit_price,payment_method
+ORD001,2026-08-01,Cheesecake Slice,Pastry,2.0,130,GCash
+ORD002,2026-08-01,Milk Tea,Tea,1.0,85,GCash
+ORD003,2026-08-01,Latte,Coffee,4.0,120,GCash
+ORD004,2026-08-02,Green Tea,Tea,2.0,70,GCash
+ORD005,2026-08-02,Milk Tea,Tea,4.0,85,Cash
+ORD006,2026-08-02,Latte,Coffee,3.0,120,GCash
+ORD007,2026-08-02,Iced Americano,Coffee,2.0,100,Cash
+ORD008,2026-08-02,Espresso,Coffee,3.0,90,
+ORD009,2026-08-03,Cappuccino,Coffee,2.0,115,Cash
+ORD010,2026-08-03,Green Tea,Tea,2.0,70,GCash
+ORD011,2026-08-03,Latte,Coffee,3.0,120,Card
+ORD012,2026-08-04,Milk Tea,Tea,1.0,85,Cash
+ORD013,2026-08-04,Espresso,Coffee,2.0,90,Cash
+ORD014,2026-08-04,Green Tea,Tea,1.0,70,GCash
+ORD015,2026-08-05,Cappuccino,Coffee,2.0,115,Cash
+ORD016,2026-08-05,Blueberry Muffin,Pastry,1.0,80,GCash
+ORD017,2026-08-06,Latte,Coffee,1.0,120,GCash
+ORD018,2026-08-06,Milk Tea,Tea,3.0,85,Cash
+ORD019,2026-08-06,Ham Sandwich,Food,1.0,110,GCash
+ORD020,2026-08-07,Latte,Coffee,,120,Cash
+ORD021,2026-08-07,Cappuccino,Coffee,3.0,115,GCash
+ORD022,2026-08-07,Cheesecake Slice,Pastry,2.0,130,GCash
+ORD023,2026-08-08,Croissant,Pastry,2.0,75,Cash
+ORD024,2026-08-08,Cappuccino,Coffee,1.0,115,GCash
+ORD025,2026-08-08,Ham Sandwich,Food,2.0,110,GCash
+ORD026,2026-08-08,Croissant,Pastry,2.0,75,Cash
+ORD027,2026-08-08,Croissant,Pastry,2.0,75,Cash
+ORD028,2026-08-09,Milk Tea,Tea,4.0,85,Cash
+ORD029,2026-08-09,Ham Sandwich,Food,4.0,110,GCash
+ORD030,2026-08-09,Iced Americano,Coffee,1.0,100,GCash
+ORD031,2026-08-10,Milk Tea,Tea,2.0,85,GCash
+ORD032,2026-08-10,Iced Americano,Coffee,1.0,100,Cash
+ORD033,2026-08-10,Latte,Coffee,1.0,120,GCash
+ORD034,2026-08-11,Green Tea,Tea,3.0,70,
+ORD035,2026-08-11,Latte,Coffee,3.0,120,GCash
+ORD036,2026-08-11,Latte,Coffee,2.0,120,Cash
+ORD037,2026-08-12,Cappuccino,Coffee,1.0,115,GCash
+ORD038,2026-08-12,Croissant,Pastry,2.0,75,Cash
+ORD039,2026-08-13,Latte,Coffee,2.0,120,Card
+ORD040,2026-08-13,Pasta Cup,Food,2.0,140,Cash
+ORD041,2026-08-14,Cheesecake Slice,Pastry,3.0,130,GCash
+ORD042,2026-08-14,Cappuccino,Coffee,3.0,115,Cash
+ORD043,2026-08-14,Cheesecake Slice,Pastry,1.0,130,Cash
+ORD044,2026-08-15,Ham Sandwich,Food,2.0,110,Cash
+ORD045,2026-08-15,Green Tea,Tea,4.0,70,Card
+ORD046,2026-08-15,Croissant,Pastry,1.0,75,Cash
+ORD047,2026-08-15,Cheesecake Slice,Pastry,1.0,130,GCash
+ORD048,2026-08-16,Croissant,Pastry,2.0,75,Cash
+ORD049,2026-08-16,Latte,Coffee,3.0,120,Cash
+ORD050,2026-08-16,Blueberry Muffin,Pastry,1.0,80,Cash
+ORD051,2026-08-16,Iced Americano,Coffee,3.0,100,Cash
+ORD052,2026-08-17,Croissant,Pastry,1.0,75,Card
+ORD053,2026-08-17,Espresso,Coffee,2.0,90,GCash
+ORD054,2026-08-17,Green Tea,Tea,1.0,70,GCash
+ORD055,2026-08-18,Blueberry Muffin,Pastry,2.0,80,Card
+ORD056,2026-08-18,Latte,Coffee,2.0,120,GCash
+ORD057,2026-08-19,Cappuccino,Coffee,3.0,115,GCash
+ORD058,2026-08-19,Iced Americano,Coffee,3.0,100,Cash
+ORD059,2026-08-19,Milk Tea,Tea,2.0,85,Card
+ORD060,2026-08-20,Green Tea,Tea,1.0,70,GCash
+ORD061,2026-08-20,Iced Americano,Coffee,1.0,100,GCash
+ORD062,2026-08-20,Latte,Coffee,1.0,120,
+ORD063,2026-08-21,Blueberry Muffin,Pastry,3.0,80,Cash
+ORD064,2026-08-21,Cheesecake Slice,Pastry,2.0,130,Cash
+ORD065,2026-08-21,Pasta Cup,Food,1.0,140,GCash
+ORD066,2026-08-22,Croissant,Pastry,2.0,75,GCash
+ORD067,2026-08-22,Pasta Cup,Food,1.0,140,Cash
+ORD068,2026-08-22,Croissant,Pastry,3.0,75,Card
+ORD069,2026-08-23,Latte,Coffee,3.0,120,Card
+ORD070,2026-08-23,Espresso,Coffee,1.0,90,Card
+ORD071,2026-08-23,Ham Sandwich,Food,1.0,110,Cash
+ORD072,2026-08-24,Espresso,Coffee,3.0,90,GCash
+ORD073,2026-08-24,Milk Tea,Tea,2.0,85,Cash
+ORD074,2026-08-24,Cheesecake Slice,Pastry,3.0,130,Cash
+ORD075,2026-08-25,Pasta Cup,Food,3.0,140,Cash
+ORD076,2026-08-25,Cappuccino,Coffee,1.0,115,Cash
+ORD077,2026-08-26,Cheesecake Slice,Pastry,1.0,130,GCash
+ORD078,2026-08-26,Blueberry Muffin,Pastry,3.0,80,Cash
+ORD079,2026-08-26,Iced Americano,Coffee,1.0,100,GCash
+ORD080,2026-08-27,Pasta Cup,Food,2.0,140,Cash
+ORD081,2026-08-27,Green Tea,Tea,3.0,70,Cash
+ORD082,2026-08-28,Iced Americano,Coffee,1.0,100,GCash
+ORD083,2026-08-28,Pasta Cup,Food,1.0,140,GCash
+ORD084,2026-08-29,Blueberry Muffin,Pastry,4.0,80,GCash
+ORD085,2026-08-29,Croissant,Pastry,1.0,75,Cash
+ORD086,2026-08-29,Blueberry Muffin,Pastry,2.0,80,Cash
+ORD087,2026-08-29,Latte,Coffee,4.0,120,GCash
+ORD088,2026-08-29,Iced Americano,Coffee,2.0,100,Card
+ORD089,2026-08-30,Green Tea,Tea,1.0,70,GCash
+ORD090,2026-08-30,Ham Sandwich,Food,2.0,110,Cash
+ORD091,2026-08-30,Espresso,Coffee,3.0,90,Card
+ORD092,2026-08-30,Cheesecake Slice,Pastry,4.0,130,GCash
+ORD093,2026-08-30,Ham Sandwich,Food,2.0,110,GCash
+ORD094,2026-08-31,Cheesecake Slice,Pastry,2.0,130,GCash
+ORD095,2026-08-31,Cappuccino,Coffee,3.0,115,Card
+ORD096,2026-09-01,Cheesecake Slice,Pastry,2.0,130,Cash
+ORD097,2026-09-01,Latte,Coffee,2.0,120,Cash
+ORD098,2026-09-01,Latte,Coffee,2.0,120,Card
+ORD099,2026-09-02,Milk Tea,Tea,2.0,85,Cash
+ORD100,2026-09-02,Cappuccino,Coffee,3.0,115,GCash
+ORD101,2026-09-03,Pasta Cup,Food,1.0,140,Cash
+ORD102,2026-09-03,Green Tea,Tea,2.0,70,Cash
+ORD103,2026-09-03,Cappuccino,Coffee,3.0,115,Cash
+ORD104,2026-09-04,Latte,Coffee,3.0,120,Cash
+ORD105,2026-09-04,Pasta Cup,Food,1.0,140,Cash
+ORD106,2026-09-04,Iced Americano,Coffee,2.0,100,Cash
+ORD107,2026-09-05,Blueberry Muffin,Pastry,2.0,80,Cash
+ORD108,2026-09-05,Milk Tea,Tea,2.0,85,Cash
+ORD109,2026-09-05,Ham Sandwich,Food,1.0,110,Card
+ORD110,2026-09-06,Ham Sandwich,Food,3.0,110,Cash
+ORD111,2026-09-06,Espresso,Coffee,1.0,90,Cash
+ORD112,2026-09-06,Cappuccino,Coffee,2.0,115,GCash
+ORD113,2026-09-06,Espresso,Coffee,3.0,90,Cash
+ORD114,2026-09-06,Latte,Coffee,3.0,120,GCash
+ORD115,2026-09-07,Cheesecake Slice,Pastry,3.0,130,Card
+ORD116,2026-09-07,Iced Americano,Coffee,3.0,100,GCash
+ORD117,2026-09-07,Croissant,Pastry,2.0,75,GCash
+ORD118,2026-09-08,Latte,Coffee,3.0,120,GCash
+ORD119,2026-09-08,Green Tea,Tea,3.0,70,GCash
+ORD120,2026-09-08,Ham Sandwich,Food,3.0,110,GCash
+ORD121,2026-09-09,Cappuccino,Coffee,1.0,115,Cash
+ORD122,2026-09-09,Milk Tea,Tea,2.0,85,Cash
+ORD123,2026-09-10,Cappuccino,Coffee,2.0,115,Cash
+ORD124,2026-09-10,Milk Tea,Tea,3.0,85,Cash
+ORD125,2026-09-10,Iced Americano,Coffee,1.0,100,Cash
+ORD126,2026-09-11,Cheesecake Slice,Pastry,3.0,130,Card
+ORD127,2026-09-11,Ham Sandwich,Food,2.0,110,Cash
+ORD128,2026-09-11,Green Tea,Tea,2.0,70,GCash
+ORD129,2026-09-12,Blueberry Muffin,Pastry,1.0,80,GCash
+ORD130,2026-09-12,Cheesecake Slice,Pastry,1.0,130,Cash
+ORD131,2026-09-12,Iced Americano,Coffee,2.0,100,Cash
+ORD132,2026-09-12,Blueberry Muffin,Pastry,4.0,80,GCash
+ORD133,2026-09-13,Croissant,Pastry,1.0,75,Cash
+ORD134,2026-09-13,Pasta Cup,Food,3.0,140,GCash
+ORD135,2026-09-13,Milk Tea,Tea,3.0,85,Card
+ORD136,2026-09-13,Espresso,Coffee,1.0,90,Cash
+ORD137,2026-09-14,Croissant,Pastry,1.0,75,GCash
+ORD138,2026-09-14,Latte,Coffee,1.0,120,GCash
+ORD139,2026-09-14,Croissant,Pastry,3.0,75,GCash
