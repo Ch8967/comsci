@@ -1,8 +1,4 @@
-"""
-Small Business Sales Analyzer
-Libraries: Streamlit, Pandas, NumPy, Matplotlib, SciPy
-Run locally:  streamlit run app.py
-"""
+
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -17,7 +13,6 @@ WEEKDAY_ORDER = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturd
 
 
 def load_and_clean(source):
-    """Read the CSV, fix types, drop invalid rows, and add derived columns."""
     raw = pd.read_csv(source)
     df = raw.copy()
 
